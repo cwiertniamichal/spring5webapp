@@ -13,7 +13,6 @@ import static javax.persistence.GenerationType.AUTO;
 @Entity
 public class Author {
 
-
     @Id
     @GeneratedValue(strategy = AUTO)
     private Long id;
